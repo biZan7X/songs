@@ -11,7 +11,11 @@ const songReducer = () => {
 
 const selectedSongReducer = (selectedSong = null, action) => {
 	if (action.type === "SONG_SELECTED") {
+<<<<<<< HEAD
 		return action.payload;
+=======
+		return action.song;
+>>>>>>> ad8605fd4528952cba4c93fb3f92208557a616a7
 	}
 
 	return selectedSong;
